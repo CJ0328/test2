@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>About</title>
+<meta charset="utf-8">
+<link rel = "stylesheet" href = "style.css">
+<script src="https://kit.fontawesome.com/da8fe98f42.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+    <div class = "colorpart">
+      <div class = "container">
+          <h1 class = "logo">C&J gaming</h1>
+      
+          <ul class = "navigation_bar">
+              <li><a class = "active" href="assignment_1.html">HOME</a>&nbsp;&nbsp;&nbsp;</li>
+              <li><a href="games.html">GAMES</a>&nbsp;&nbsp;&nbsp; </li>
+              <li><a href="accessories.html">ACCESSORIES</a>&nbsp;&nbsp;&nbsp; </li>
+              <li><a href="about.html">ABOUT</a>&nbsp;&nbsp;&nbsp; </li>
+              <li><a href="contact.html">CONTACT US</a>&nbsp;&nbsp;&nbsp;</li>
+              <li><a href="sign_in.html">SIGN IN</a></li>
+          </ul>
+          <div class="menu">
+              <span class = "bar"></span>
+              <span class = "bar"></span>
+              <span class = "bar"></span>
+           </div>
+      </div>
+      <div class = "login-container">
+        <div class = "bill-container">
+        <div class = "left">
+            <h3>BILLING ADDRESS</h3>
+            <br>
+              <form id="form" class="form">
+              <div class="bill-field">
+                <label for="fullname">Full name</label>
+                <input type="text" placeholder="Enter name" id="fullname" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+              </div>
+              <div class="bill-field">
+                <label for="username">Email</label>
+                <input type="text" placeholder="Enter email" id="email" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+              </div>
+              <div class="bill-field">
+                <label for="username">Address</label>
+                <input type="text" placeholder="Enter address" id="address" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+              </div>
+              <div class="bill-field">
+                <label for="city">City</label>
+                <input type="text" placeholder="Enter city" id="city" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+              </div>
+              <div class = "bill-field">
+                <br>
+               <span>State</span>
+               <br>
+               <select id = "select">
+                <option value = "1">Choose State</option>
+                <option>Johor</option>
+                <option>Kedah</option>
+                <option>Kelantan</option>
+                <option>Malacca</option>
+                <option>Negeri Sembilan</option>
+                <option>Pahang</option>
+                <option>Penang</option>
+                <option>Perak</option>
+                <option>Perlis</option>
+                <option>Sabah</option>
+                <option>Sarawak</option>
+                <option>Selangor</option>
+                <option>Terengganu</option>
+               </select>
+               <small>Error message</small>
+            </div>
+            <div class="bill-field">
+              <label for="zipcode">Zip code</label>
+              <input type="number" placeholder="Enter zip code" id="zipcode" />
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error message</small>
+            </div>
+          </div>
+  
+    
+        <div class = right>
+            <h3>PAYMENT</h3>
+            <br>
+            <div class="bill-field">
+              <label>Accepted Card</label>
+              <br>
+              <img src = "master card.png" height = 40px; width = 100px;>
+            </div>
+              <div class="bill-field">
+                <label for="card_number">Card number</label>
+                <input type="number" placeholder="Enter credit card number" id="card_number">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+              </div>
+              <div class="bill-field">
+                <label>Exp Month</label>
+                <select id = "select_month">
+                    <option value = "1">Choose Month</option>
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                    <option>June</option>
+                    <option>July</option>
+                    <option>August</option>
+                    <option>September</option>
+                    <option>October</option>
+                    <option>November</option>
+                    <option>December</option>
+                </select>
+                <small>Error message</small>
+              </div>
+              <div class="bill-field">
+                <label>Exp Year</label>
+                <select id = "select_year">
+                  <option value = "1">Choose Year</option>
+                  <option>2022</option>
+                  <option>2023</option>
+                  <option>2024</option>
+                  <option>2025</option>
+                  <option>2026</option>
+                </select>
+                <small>Error message</small>
+              </div>
+              <div class="bill-field">
+                <label for="cvv">CVV</label>
+                <input type="number" placeholder="CVV" id="cvv"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+              </div>
+              <button id = "btn1">Proceed to check out</button>
+            </form>
+        </div>
+    
+        </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-container">
+          <div class="footer-row">
+              <div class="footer-col">
+                   <h4>company</h4>
+                  <ul>
+                      <li><p><Strong>Address: </Strong>16, Jalan Mempelam 3,<br> Taman Kota Jata, 81900,<br> Kota Tinggi, Johor</p></li>
+                      <li><p><Strong>Contact: </Strong>+60 102219767</p></li>
+                      <li><p><Strong>Hours: </Strong>8.00 - 18.00, Mon - Sun</p></li>
+                  </ul>
+              </div>
+              <div class="footer-col">
+                  <h4>get help</h4>
+                  <ul>
+                      <li><a href="contact.html">Contact Us</a></li>
+                      <li><a href="About.html">About Us</a></li>
+                      <li><a href="sign_in.html">Sign In</a></li>
+                      <li><a href="Buy_now.html">Payment options</a></li>
+                  </ul>
+              </div>
+              <div class="footer-col">
+                  <h4>online shop</h4>
+                  <ul>
+                      <li><a href="games.html">Games</a></li>
+                      <li><a href="accessories.html">Consoles</a></li>
+                  </ul>
+              </div>
+              <div class="footer-col">
+                  <h4>follow us</h4>
+                  <div class="social-links">
+                      <a href="#"><img src = "Whatsapp.png"></a>
+                      <a href="#"><img src = "pngegg.png"></a>
+                      <a href="#"><img src = "Instagram-logo-clipart-PNG.png"></a>
+                      <a href="#"><img src = "fb.png"></a>
+                  </div>
+              </div>
+          </div>
+          <hr>
+          <p class = "copy">Copyright @ 2022 C & J Gaming Sdn Bhd. Project by CJ Web Design</p>
+      </div>
+  </footer>
+  
+  <script>
+  const form = document.getElementById('form');
+  const fullname = document.getElementById('fullname');
+  const email = document.getElementById('email');
+  const address = document.getElementById('address')
+  const city = document.getElementById('city')
+  const zipcode = document.getElementById('zipcode')
+  const card_number = document.getElementById('card_number');
+  const cvv = document.getElementById('cvv');
+  const select = document.getElementById('select');
+  const select_month = document.getElementById('select_month');
+  const select_year = document.getElementById('select_year');
+  
+  form.addEventListener('submit', e => {
+      e.preventDefault();
+      
+      checkInputs_buy();
+  });
+  
+  function checkInputs_buy() {
+      // trim to remove the whitespaces
+    const fullnameValue = fullname.value;
+    const emailValue = email.value;
+    const addressValue = address.value;
+    const cityValue = city.value;
+    const zipcodeValue = zipcode.value;
+    const card_numberValue = card_number.value;
+    const cvvValue = cvv.value;
+    const selectValue = select.value;
+    const select_monthValue = select_month.value;
+    const select_yearValue = select_year.value;
+
+    var F = false;
+    var E = false;
+    var A = false;
+    var Ci = false;
+    var Z = false;
+    var Ca = false;
+    var Cv = false;
+    var Ss = false;
+    var Sm = false;
+    var Sy = false;
+      
+      if(fullnameValue === '') {
+          seterrorFor(fullname, 'Name cannot be blank');
+      } else {
+          setsuccessFor(fullname);
+      F = true;
+      }
+      
+      if(emailValue === '') {
+          seterrorFor(email, 'Email cannot be blank');
+      } else if (!isEmail(emailValue)) {
+          seterrorFor(email, 'Not a valid email');
+      } else {
+          setsuccessFor(email);
+      E = true;
+      }
+  
+    if(addressValue === '') {
+          seterrorFor(address, 'Address cannot be blank');
+      } else {
+          setsuccessFor(address);
+      A = true;
+      }
+    if(cityValue === '') {
+          seterrorFor(city, 'City cannot be blank');
+      } else {
+          setsuccessFor(city);
+      Ci = true;
+      }
+    if(zipcodeValue === '') {
+        seterrorFor(zipcode, 'Zip code cannot be blank');
+      } else if(zipcodeValue.length<5){
+        seterrorFor(zipcode, 'Zip code must contain five numbers');
+      } else if(zipcodeValue.length>5){
+        seterrorFor(zipcode, 'Zip code must contain five numbers only');
+      }else {
+          setsuccessFor(zipcode);
+          Z = true;
+      }
+      
+      if(card_numberValue === '') {
+          seterrorFor(card_number, 'Card number cannot be blank');
+      }else if(card_numberValue.length<16){
+        seterrorFor(card_number, 'Credit card number must contain 16 numbers');
+      }else if(card_numberValue.length>16){
+        seterrorFor(card_number, 'Credit card number must contain 16 numbers only');
+      } else {
+          setsuccessFor(card_number);
+      Ca = true;
+      }
+      
+      if(cvvValue === '') {
+        seterrorFor(cvv, 'CVV cannot be blank');
+      }else if(cvvValue.length<3){
+        seterrorFor(cvv, 'CVV must contain 3 numbers');
+      }else if(cvvValue.length>3){
+        seterrorFor(cvv, 'CVV must contain 3 numbers only');
+      } else{
+          setsuccessFor(cvv);
+      Cv = true;
+      }
+
+      if(selectValue === "1"){
+      seterrorFor(select, 'Please select your state');
+      } else {
+      setsuccessFor(select);
+      Ss = true;
+    }
+      if(select_monthValue === "1"){
+      seterrorFor(select_month, 'Please select your card expired month');
+      } else {
+      setsuccessFor(select_month);
+      Sm = true;
+  
+    }
+      if(select_yearValue === "1"){
+      seterrorFor(select_year, 'Please select your card expired year');
+      } else {
+      setsuccessFor(select_year);
+      Sy = true;
+    }
+  
+    if(F === true && E === true && A === true && Ci === true && Z === true && Ca === true && Cv === true && Ss === true  && Sm === true  && Sy === true){
+      alert("You have succesfully place an order! You will receive the order soon.")
+      window.location.href="assignment_1.html"
+    }
+
+  
+  }
+  
+  function seterrorFor(input, message) {
+      const bill_field = input.parentElement;
+      const small = bill_field.querySelector('small');
+      bill_field.className = 'bill-field error';
+      small.innerText = message;
+  }
+  
+  function setsuccessFor(input) {
+      const bill_field = input.parentElement;
+      bill_field.className = 'bill-field success';
+  }
+      
+  function isEmail(email) {
+      return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+  }
+
+const hamburger = document.querySelector(".menu");
+const navMenu = document.querySelector(".navigation_bar");
+
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+});
+
+document.querySelectorAll(".nav-link").forEach((link) =>
+  link.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+  })
+);
+  </script>
+  </body>
+  
